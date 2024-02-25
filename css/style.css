@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@9..40,400;9..40,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.dashboard-header {
+    padding: 10px 50px 90px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    font-size:  26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.dashboard-header p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
