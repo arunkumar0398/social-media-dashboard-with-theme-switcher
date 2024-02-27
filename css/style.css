@@ -265,8 +265,8 @@ body {
 .slider:before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   left: 6px;
   top: 0;
   bottom: 0;
@@ -274,13 +274,13 @@ body {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   box-shadow: 0 0px 15px #2020203d;
-  background-color: #ccc;
+  background-color: hsl(228, 28%, 20%);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .theme-dark .slider::before {
-    left: 1px;
+    inset: 3px;
 }
 
 input:checked + .slider {
@@ -295,7 +295,6 @@ input:checked + .slider:before {
   -webkit-transform: translateX(24px);
   -ms-transform: translateX(24px);
   transform: translateX(24px);
-  /* background: white url('https://i.ibb.co/7JfqXxB/sunny.png'); */
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
